@@ -10,11 +10,12 @@ func main() {
 	fmt.Print("ตะแนน =")
 	fmt.Scanf("%d", &number)
 
-	if number == 1 {
+	switch number {
+	case 1:
 		fmt.Println("เปิดบัณชีใหม่")
-	} else if number == 2 {
+	case 2:
 		fmt.Println("ฟากเงิน")
-	} else {
+	default:
 		fmt.Println("ไม่ถูกต้อง")
 	}
 }

@@ -1,21 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-// 100 =>  >= 5 สอบผ่าน , สอยไม่ผ่าน
+// array
 func main() {
-	// รับ input
-	// ตัวเลข
-	var number int
-	fmt.Print("ตะแนน =")
-	fmt.Scanf("%d", &number)
+	//number1 := 100
+	//number2 := 200
+	//number3 := 300
 
-	switch number {
-	case 1:
-		fmt.Println("เปิดบัณชีใหม่")
-	case 2:
-		fmt.Println("ฟากเงิน")
-	default:
-		fmt.Println("ไม่ถูกต้อง")
-	}
+	var numbers [3]int
+	fmt.Println(numbers)
 }
